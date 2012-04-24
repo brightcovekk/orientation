@@ -5,7 +5,7 @@ function VideoView() {
         bc.device.setAutoRotateDirections(["all"]);
 
         self.showLoading();
-
+		
         self.loadTemplates("../txt/videos.txt", function() {
             bc.core.getData("videos", renderPlaylist, handleError);
         });

@@ -85,7 +85,7 @@ h1 {
     -webkit-transition: opacity 250ms linear;
 }
 
-@media only screen and (orientation: landscape) {
+@media all and (orientation: landscape) {
     ul.results {
         text-align: center;
     }
@@ -108,13 +108,13 @@ h1 {
 
 }
 
-@media only screen and (orientation: portrait) {
+@media all and (orientation: portrait) {
 	body {
 		color: green;
 	}
 }
 
-@media only screen and (orientation: landscape) {
+@media all and (orientation: landscape) {
 	body {
 		color: red;
 	}
